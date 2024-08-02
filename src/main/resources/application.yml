@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/rest_with_sprinboot?useTimezone=true&serverTimezone=UTC
+    username: root
+    password: 591502
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
